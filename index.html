@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mukenya Task Management</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="stingo.css">
+    </head>
+    <body>
+        <div class="task-form">
+            <h4><b>MUKENYA TASK MANAGEMENT</b></h4> <br> 
+            <p>A very warm welcome, Feel free to add tasks</p> <br>
+            <input type="text" id="task-input" placeholder="+ New task"/>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="task-list"></ul> <br> <br> <br>
+        
+        <p><b>All Rights Reserved &copy;2024, Daniel Mukenya &trade;</b></p>
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
