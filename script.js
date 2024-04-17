@@ -52,10 +52,7 @@ db.collection("tasks")
 
 function deleteTask(id) {
     db.collection("tasks").doc(id).delete();
-    event.target.remove();
+    event.target.parentElement.remove();
     reloadPage();
 }
 
-function reloadPage() {
-    location.reload();
-  }
